@@ -21,10 +21,38 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小胖牛', year: '1997', date: '04-11',
+          type: '生日', name: '小胖牛', year: '1997', date: '04-11', isShowAge: true,
         },
         {
-          type: '生日', name: '阎阎', year: '1997', date: '12-21',
+          type: '生日', name: '阎阎', year: '1997', date: '12-21', isShowAge: true,
+        },
+        {
+          type: '节日', name: '相爱纪念日', year: '2019', date: '01-26',
+        },
+        {
+          type: '节日', name: '考研日', year: '2022', date: '12-24',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 相识的日子
+        { keyword: 'know_day', date: '2019-01-23' },
+        // 在一起的日子
+        { keyword: 'love_day', date: '2019-01-26' },
+      ],
+    },
+    {
+      name: '自己',
+      id: 'PDU17738TAZEEpK5pKrdgdOt8t2ZHBzNHwWBz1YCW',
+      useTemplateId: '0001',
+      horoscopeDate: '04-11',
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '小胖牛', year: '1997', date: '04-11', isShowAge: true,
+        },
+        {
+          type: '生日', name: '阎阎', year: '1997', date: '12-21', isShowAge: true,
         },
         {
           type: '节日', name: '相爱纪念日', year: '2019', date: '01-26',
@@ -43,37 +71,6 @@ const USER_CONFIG = {
     },
   ],
 
-  USERS: [
-    {
-      name: '自己',
-      id: 'PDU17738TAZEEpK5pKrdgdOt8t2ZHBzNHwWBz1YCW',
-      useTemplateId: '0001',
-      horoscopeDate: '04-11',
-      festivals: [
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小胖牛', year: '1997', date: '04-11',
-        },
-        {
-          type: '生日', name: '阎阎', year: '1997', date: '12-21',
-        },
-        {
-          type: '节日', name: '相爱纪念日', year: '2019', date: '01-26',
-        },
-        {
-          type: '节日', name: '考研日', year: '2022', date: '12-24',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 相识的日子
-        { keyword: 'know_day', date: '2019-01-23' },
-        // 在一起的日子
-        { keyword: 'love_day', date: '2019-01-26' },
-      ],
-    },
-  ],
-  
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '0002',
 
