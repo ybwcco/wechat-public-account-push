@@ -15,7 +15,7 @@ const USER_CONFIG = {
   USERS: [
     {
       name: '牛牛',
-      id: 'PDU17738TG0NS6hteCbDDUxQkyVstRotgP50GbFwf',
+      id: 'PDU17774TqiGGjdcPuURFpypbdngopcQlR1aGCtyF',
       useTemplateId: '0001',
       horoscopeDate: '04-11',
       festivals: [
