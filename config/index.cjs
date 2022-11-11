@@ -32,7 +32,7 @@ const USER_CONFIG = {
         // 相识的日子
         { keyword: 'know_day', date: '2019-01-23' },
         // 在一起的日子
-        // { keyword: 'love_day', date: '2019-01-26' },
+        { keyword: 'love_day', date: '2019-01-26' },
       ],
     },
   ],
